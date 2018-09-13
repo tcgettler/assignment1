@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="reset.css"/>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="../styles/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="../styles/global.css"/>
+    <link rel="stylesheet" type="text/css" href="../styles/contact.css"/>
 </head>
 <body>
         <div class="header">
@@ -23,14 +24,12 @@
             <form>
                     <fieldset>
                             <legend>Contact Form</legend>
-                            Name:<br>
-                            <input type="text" name="name" value="Enter your name" class="textbox"><br>
-                            Email:
-                            <br>
-                            <input type="text" name="email" value="sample@gmail.com" class="textbox">
-                            <br>
-                            Message:
-                            <input type="text" name="message" value="Fill out your message" class="textbox"><br><br>
+                            <section class="label">Name: </section><br>
+                            <input type="text" name="name" placeholder="Enter your name." class="textbox" autofocus>
+                            <section class="label">Email: </section><br>
+                            <input type="email" name="email" placeholder="sample@gmail.com" class="textbox">
+                            <section class="label">Message: </section><br>
+                            <textarea class="textbox" name="message" placeholder="What would you like to say?" id="message"></textarea>
                             <input type="submit" value="Submit" id="submit">
                     </fieldset>
             </form>
