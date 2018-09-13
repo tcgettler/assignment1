@@ -8,8 +8,8 @@ h1{
     padding-left: 77px;
     color: white;
     font-family: DolceVita;
-    font-size: 42px;
-    margin-top: 17px;
+    font-size: 54px;
+    margin-top: 15px;
 }
 
 a{
@@ -24,6 +24,7 @@ section{
     font-family:Calibri;
     font-size:24px;
     padding: 25px 30px 15px 10px;
+    overflow:auto;
 }
 
 
@@ -52,6 +53,8 @@ section{
     margin-top: 5%;
     border-radius: 50px 15px;
     margin-bottom:50px;
+    box-shadow:15px 15px lightgray;
+    overflow-y:auto;
 }
 
 .vl {
